@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+  }
+  
+  nav {
+    background: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #6a11cb;
+  }
+  
+  .section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .card {
+    display: inline-block;
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background: #2575fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #6a11cb;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+  }
+  
+  /* Animaciones */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
